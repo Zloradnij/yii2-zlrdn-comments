@@ -1,0 +1,28 @@
+.zlrdn-comments-list {
+
+}
+.zlrdn-comment-item-zero {
+    display: none;
+}
+.zlrdn-comment-item {
+    border-bottom: 1px solid #888;
+    box-shadow: 0 1px 5px 0px rgba(0,0,0,0.4);
+    margin-bottom: 15px;
+    padding: 10px 20px;
+}
+.zlrdn-comment-item-params {
+    color: #888;
+    overflow: hidden;
+}
+.zlrdn-comment-item-param-author {
+
+}
+.zlrdn-comment-item-param-date {
+
+}
+.zlrdn-comment-item-content {
+
+}
+.zlrdn-comment-item-param-delete span {
+    cursor: pointer;
+}
