@@ -1,6 +1,6 @@
 <?php
 
-namespace app\assets;
+namespace zlrdn\comments\assets;
 
 use yii\web\AssetBundle;
 
@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
  */
 class AppAssetZlrdnComments extends AssetBundle
 {
-    public $sourcePath = '@vendor/zlrdn';
+    public $sourcePath = '@vendor/zlrdn/yii2-comments/web';
     public $css = [
         'css/zlrdn-comments.css',
     ];

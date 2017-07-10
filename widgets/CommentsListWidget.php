@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\comments\widgets;
+namespace zlrdn\comments\widgets;
 
 /**
  * @var $entity string
@@ -23,8 +23,8 @@ class CommentsListWidget extends \yii\base\Widget
             <div class="zlrdn-comment-item-zero">
                 <div class="zlrdn-comment-item">
                     <div class="zlrdn-comment-item-params">
-                        <div class="zlrdn-comment-item-param-author"></div>
-                        <div class="zlrdn-comment-item-param-date"></div>
+                        <div class="zlrdn-comment-item-param-author col-md-6"></div>
+                        <div class="zlrdn-comment-item-param-date col-md-5 text-right"></div>
                     </div>
                     <div class="zlrdn-comment-item-content"></div>
                 </div>

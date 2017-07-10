@@ -31,8 +31,8 @@ $(document).ready(function(){
                 if (typeof response.model !== "undefined" && response.model) {
                     var comment = $('.zlrdn-comment-item-zero .zlrdn-comment-item').clone();
                     comment.find('.zlrdn-comment-item-content').html(response.model.content);
-                    comment.find('.zlrdn-comment-item-param-author').html(response.model.created_by);
-                    comment.find('.zlrdn-comment-item-param-date').html(response.model.created_at);
+                    comment.find('.zlrdn-comment-item-param-author').html(response.model.author);
+                    comment.find('.zlrdn-comment-item-param-date').html(response.model.date);
 
                     $('.zlrdn-comments-list').append(comment);
                     form.find('textarea').val('');

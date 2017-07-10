@@ -1,15 +1,15 @@
 <?php
 
-namespace app\modules\comments\widgets;
+namespace zlrdn\comments\widgets;
 
-use app\modules\comments\models\Comments;
+use zlrdn\comments\models\Comments;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /**
  * @var $entity string
  * @var $entityID int
- * @var $model \app\modules\comments\models\Comments
+ * @var $model Comments
  * */
 
 class CommentFormWidget extends \yii\base\Widget

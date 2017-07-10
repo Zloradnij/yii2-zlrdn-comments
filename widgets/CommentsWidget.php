@@ -1,12 +1,12 @@
 <?php
 
-namespace app\modules\comments\widgets;
+namespace zlrdn\comments\widgets;
 
-use app\modules\comments\models\Comments;
+use zlrdn\comments\models\Comments;
 use Yii;
 
 /**
- * @var $module \app\modules\comments\Module
+ * @var $module \zlrdn\comments\Module
  * @var $show boolean
  * @var $showForm boolean
  * */

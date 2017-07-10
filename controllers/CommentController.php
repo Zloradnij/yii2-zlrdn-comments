@@ -1,8 +1,8 @@
 <?php
 
-namespace app\modules\comments\controllers;
+namespace zlrdn\comments\controllers;
 
-use app\modules\comments\models\Comments;
+use zlrdn\comments\models\Comments;
 use Yii;
 use yii\filters\VerbFilter;
 use yii\web\Controller;

@@ -1,13 +1,13 @@
 <?php
 
-namespace app\modules\comments;
+namespace zlrdn\comments;
 
 
 use Yii;
 
 class Module extends \yii\base\Module
 {
-    const VERSION = '0.1.0';
+    const VERSION = '1.0.1';
 
     private $showForm = false;
 
@@ -15,6 +15,8 @@ class Module extends \yii\base\Module
     public $adminRole;
     public $userEntity;
     public $isAnonymouse;
+    public $profileRelation;
+    public $userNameField = 'username';
 
     public function init()
     {
@@ -25,6 +27,9 @@ class Module extends \yii\base\Module
         parent::init();
     }
 
+    /**
+     * @return bool
+     */
     public function getShowForm()
     {
         return $this->showForm;
